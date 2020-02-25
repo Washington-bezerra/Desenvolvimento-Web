@@ -1,0 +1,27 @@
+/* #pagina p {
+    color: blue !important; Será aplicado o cor bleu por conta do important
+}
+
+#pagina p {
+    color: red;
+} */
+
+/* SE UM SELETOR FOR AIS ESPECÍFICO QUE OUTRO A REGRA MAIS
+ESPECÍFICA SERÁ APLICADA (TERÁ PRECEDÊNCIA SOBRE REGRAS
+MAIS GERAIS OU MENOS ESPECÍFICAS) */
+
+* {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h2#amarelo {
+    color: yellow; /* O ID É CONSIDERADO MAIS ESPECÍFICO */
+}
+
+h2.verde {
+    color: green
+}
