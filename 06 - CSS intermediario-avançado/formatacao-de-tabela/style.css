@@ -2,32 +2,34 @@ body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-table {
-    width: 600px;
-    border-collapse: separate;
+fieldset {
+    margin: 1em 0em;
+    padding: 1em;
+    border: red 1px #ccc;
+    background: #f8f8f8;
 }
 
-th, td {
-    padding: 7px;
+legend {
+    font-weight: bold;
+}
+label {
+    display: block;
+    cursor: pointer 
 }
 
-th {
-    text-transform: uppercase;
-    border-top: 1px solid #999;
-    border-bottom: 1px solid #111;
-    text-align: left;
-    font-size: 90%;
-    letter-spacing: 0.1em; /* espacamento entre letras*/
+input /*[type="text"]*/{
+    width: 20em;
 }
 
-tr.alternado {
-    background-color: #efefef;
+textarea {
+    width: 20rem;
+    height: 10em;
 }
 
-tr:hover {
-    background-color: #c3e6e5;
+input.radio, input.checkbox, input.submit {
+    width: auto;
 }
 
-.numero {
-    text-align: right;
+.radio {
+    margin-right: 1em;
 }
